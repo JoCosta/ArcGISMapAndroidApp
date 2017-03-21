@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:Esri="http://schemas.esri.com/arcgis/runtime/2013"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Esri.ArcGISRuntime.UI.MapView
+        android:id="@+id/MyMapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+  <!--<Esri.ArcGISRuntime.UI.Controls.MapView
+    android:id="@+id/MyMapView">
+    <Esri.ArcGISRuntime.UI.Controls.Map
+      android:id="@+id/MyMap">
+      
+      <Esri.ArcGISRuntime.UI.Controls.EsriArcGISTiledMapServiceLayer
+        android:id="@+id/BaseMap"
+        ServiceUri="https://adapter.caymanlandinfo.ky/ngis/rest/services/Basemap_Navigation_WebMAS_FA/MapServer">
+      </Esri.ArcGISRuntime.UI.Controls.EsriArcGISTiledMapServiceLayer>
+    </Esri.ArcGISRuntime.UI.Controls.Map>
+    
+  </Esri.ArcGISRuntime.UI.Controls.MapView>-->
+
+
+</LinearLayout>  
