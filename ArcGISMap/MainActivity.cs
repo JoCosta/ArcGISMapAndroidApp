@@ -45,11 +45,11 @@ namespace ArcGISMap
             mapView = FindViewById<MapView>(Resource.Id.MyMapView);
 
                         
-            // Create a new Map instance with a default basemap
-            Map myMap = new Map(Basemap.CreateImageryWithLabels());
+            // Create a new Map instance with a default basemap 
+            Map myMap = new Map(BasemapType.ImageryWithLabels, 19.313299, -81.254601, 11);
 
             // Add arcGISMapImageLager to the map
-            myMap.OperationalLayers.Add(arcGISMapImageNavigationLayer);
+           myMap.OperationalLayers.Add(arcGISMapImageNavigationLayer);
 
             // Provide used Map to the MapView
             mapView.Map = myMap;
